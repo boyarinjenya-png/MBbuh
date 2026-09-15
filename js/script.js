@@ -5,16 +5,15 @@
   const navToggle = document.getElementById("navToggle");
   const header = document.querySelector(".header");
   if (navToggle && header) {
-    const setOpen = (open) => {
-      header.classList.toggle("is-open", open);
-      navToggle.setAttribute("aria-expanded", open ? "true" : "false");
-      navToggle.setAttribute("aria-label", open ? "Закрыть меню" : "Открыть меню");
-    };
     navToggle.addEventListener("click", () => {
-      setOpen(!header.classList.contains("is-open"));
+      const open = header.classList.toggle("is-open");
+      navToggle.setAttribute("aria-expanded", open ? "true" : "false");
     });
     header.querySelectorAll(".header__nav a").forEach((a) => {
-      a.addEventListener("click", () => setOpen(false));
+      a.addEventListener("click", () => {
+        header.classList.remove("is-open");
+        navToggle.setAttribute("aria-expanded", "false");
+      });
     });
   }
 
