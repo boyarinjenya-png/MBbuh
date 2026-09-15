@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru-KZ">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MBbuh — бухгалтерское сопровождение ИП и ТОО в Алматы и по всему Казахстану.</title>
-  <meta name="description" content="MBbuh — бухгалтерское и налоговое сопровождение ИП и ТОО, НДС, ВЭД, расчёт заработной платы, ЭСФ, ЭАВР, СНТ, консультации и восстановление бухгалтерского учёта.">
+  <title>MBbuh — бухгалтерия для бизнеса без головной боли</title>
+  <meta name="description" content="Бухгалтерское сопровождение ИП и ТОО по Казахстану: отчётность, налоги, НДС и ВЭД. Личный бухгалтер. Офис в Алматы.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="MBbuh — бухгалтерское сопровождение ИП и ТОО">
-  <meta property="og:description" content="Бухгалтерия, налоги и сопровождение бизнеса по всему Казахстану. Личный бухгалтер для каждого клиента.">
+  <meta property="og:title" content="MBbuh — бухгалтерия для бизнеса без головной боли">
+  <meta property="og:description" content="Сопровождение ИП и ТОО по всему Казахстану. Отчётность, налоги, ЭСФ.">
   <meta property="og:image" content="assets/logo/logo-square.png">
   <meta property="og:locale" content="ru_KZ">
-  <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -20,46 +18,40 @@
   <link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
 </head>
 <body>
-
-<!-- ========== HEADER ========== -->
 <header class="header">
-  <a class="header__logo" href="index.html" aria-label="MBbuh — на главную">
-    <img src="assets/logo/logo.png?v=1" alt="MBbuh" width="103" height="52">
-  </a>
-  <button class="nav-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" id="navToggle">
-    <span></span><span></span><span></span>
-  </button>
-  <nav class="header__nav" id="siteNav">
-    <a href="index.html">Главная</a>
-    <a href="#services">Услуги</a>
-    <a href="calculator.html">Калькулятор</a>
-    <a href="#about">О компании</a>
-    <a href="#reviews">Отзывы</a>
-    <a href="#contacts">Контакты</a>
-    <a class="btn btn--gold" href="calculator.html">Рассчитать стоимость</a>
-    <a class="btn btn--burgundy" href="https://wa.me/77760053437" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-  </nav>
+  <div class="header__inner">
+    <a class="header__logo" href="index.html" aria-label="MBbuh — на главную"><img src="assets/logo/logo.png?v=9" alt="MBbuh" width="120" height="40"></a>
+    <button class="nav-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" id="navToggle"><span></span><span></span><span></span></button>
+    <nav class="header__nav" id="siteNav" aria-label="Основное меню">
+      <a href="index.html" class="is-current">Главная</a>
+      <a href="services.html">Услуги</a>
+      <a href="calculator.html">Калькулятор</a>
+      <a href="prices.html">Цены</a>
+      <a href="blog.html">Блог</a>
+      <a href="about.html">О компании</a>
+      <a href="reviews.html">Отзывы</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+    <a class="btn btn-primary header__cta" href="https://wa.me/77760053437?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E" target="_blank" rel="noopener noreferrer">Получить консультацию</a>
+  </div>
 </header>
 
 <main>
-
-<!-- ========== HERO ========== -->
 <section class="hero" id="top">
   <div class="hero__text reveal">
-    <span class="badge">Надёжный партнёр для вашего бизнеса</span>
-    <h1>Бухгалтерия для бизнеса без головной боли</h1>
-    <p class="hero__lead">Мы берём бухгалтерию на себя — вы занимаетесь развитием бизнеса.</p>
-    <p class="hero__sub">Полное бухгалтерское сопровождение ИП и ТОО по всему Казахстану.</p>
+    <p class="badge">Более 25 компаний на сопровождении</p>
+    <h1>Бухгалтерия для бизнеса без головной боли.</h1>
+    <p class="hero__lead">Полностью берём бухгалтерию на себя — вы занимаетесь развитием бизнеса.</p>
+    <p class="hero__sub">Сопровождение ИП и ТОО по всему Казахстану.</p>
     <div class="buttons">
-      <a class="btn btn--gold" href="calculator.html">Рассчитать стоимость</a>
-      <a class="btn btn--burgundy" href="https://wa.me/77760053437?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E%20MBbuh." target="_blank" rel="noopener noreferrer">Получить консультацию</a>
-      <a class="btn btn--outline" href="#services">Наши услуги</a>
+      <a class="btn btn-primary" href="https://wa.me/77760053437?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E" target="_blank" rel="noopener noreferrer">Получить консультацию</a>
+      <a class="btn btn--outline-dark" href="calculator.html">Рассчитать стоимость</a>
+      <a class="btn btn--outline" href="services.html">Наши услуги</a>
     </div>
-    <ul class="hero__perks">
-      <li>Работаем по законодательству Республики Казахстан.</li>
-      <li>Работаем по всему Казахстану.</li>
-      <li>Личный бухгалтер для каждого клиента.</li>
-      <li>Без штрафов и просрочек.</li>
+    <ul class="hero__chips">
+      <li>ИП и ТОО</li>
+      <li>Опыт более 6 лет</li>
+      <li>Работаем по всему Казахстану</li>
     </ul>
   </div>
   <div class="hero__photo reveal">
@@ -67,587 +59,89 @@
   </div>
 </section>
 
-<!-- ========== STATS ========== -->
 <section class="stats" id="stats">
   <div class="section-inner">
-    <h2 class="section-title reveal">MBbuh в цифрах</h2>
     <div class="stats__grid">
       <article class="stat-card reveal">
         <div class="stat-card__num"><span class="js-counter" data-target="25" data-suffix="+">0</span></div>
-        <h3>Более 25 компаний на сопровождении.</h3>
-        <p>Более 25 компаний доверили нам бухгалтерское сопровождение.</p>
+        <h3>Компаний на сопровождении.</h3>
       </article>
       <article class="stat-card reveal">
-        <div class="stat-card__num"><span class="js-counter" data-target="1000" data-suffix="+">0</span></div>
-        <h3>Подготовленных отчётов.</h3>
-        <p>Успешно подготовили и сдали более 1000 бухгалтерских, налоговых и статистических отчётов.</p>
+        <div class="stat-card__num"><span class="js-counter" data-target="10" data-suffix="+">0</span></div>
+        <h3>Лет опыта.</h3>
       </article>
       <article class="stat-card reveal">
-        <div class="stat-card__num"><span class="js-counter" data-target="6" data-suffix="+">0</span></div>
-        <h3>Более 6 лет опыта.</h3>
-        <p>Опыт работы с ИП, ТОО, НДС, ВЭД и бухгалтерским сопровождением бизнеса по Казахстану.</p>
+        <div class="stat-card__num stat-card__num--text">ИП и ТОО</div>
+        <h3>Полное сопровождение бизнеса.</h3>
       </article>
       <article class="stat-card reveal">
-        <div class="stat-card__num stat-card__num--text">09:00–18:00</div>
-        <h3>Всегда на связи.</h3>
-        <p>Консультируем клиентов в рабочее время и оперативно отвечаем в WhatsApp.</p>
+        <div class="stat-card__num stat-card__num--text">Казахстан</div>
+        <h3>Работаем онлайн и офлайн.</h3>
       </article>
     </div>
   </div>
 </section>
 
-<!-- ========== SYSTEMS ========== -->
-<section class="systems" id="systems">
-  <div class="section-inner">
-    <p class="eyebrow reveal">Работаем в системах РК</p>
-    <h2 class="section-title reveal">Ведём учёт так, как требует законодательство Казахстана</h2>
-    <div class="systems__grid">
-      <article class="systems-card reveal"><strong>1С</strong><span>Бухгалтерский учёт и первичная документация</span></article>
-      <article class="systems-card reveal"><strong>ИС ЭСФ</strong><span>Электронные счета-фактуры</span></article>
-      <article class="systems-card reveal"><strong>ЭАВР / СНТ</strong><span>Акты и сопроводительные накладные</span></article>
-      <article class="systems-card reveal"><strong>СОНО</strong><span>Сдача налоговой отчётности</span></article>
-      <article class="systems-card reveal"><strong>Кабинет налогоплательщика</strong><span>Налоги, уведомления и статусы</span></article>
-      <article class="systems-card reveal"><strong>e-Salyq Business</strong><span>Касса и налоговый кабинет для бизнеса</span></article>
-    </div>
-  </div>
-</section>
-
-<!-- ========== SERVICES ========== -->
-<section class="services" id="services">
-  <div class="section-inner">
-    <p class="eyebrow reveal">Услуги</p>
-    <h2 class="section-title reveal">Наши услуги</h2>
-    <p class="section-lead reveal">Полный спектр бухгалтерского и налогового сопровождения для бизнеса в Казахстане.</p>
-    <div class="services__grid">
-      <article class="service-card reveal">
-        <h3>Бухгалтерский и налоговый учёт</h3>
-        <p>Полное сопровождение ИП и ТОО.</p>
-        <a class="link-more" href="#contacts">Подробнее</a>
-      </article>
-      <article class="service-card reveal">
-        <h3>Налоговая отчётность</h3>
-        <p>Подготовка и сдача отчётности вовремя.</p>
-        <a class="link-more" href="#contacts">Подробнее</a>
-      </article>
-      <article class="service-card reveal">
-        <h3>Статистическая отчётность</h3>
-        <p>Подготовка статистических форм.</p>
-        <a class="link-more" href="#contacts">Подробнее</a>
-      </article>
-      <article class="service-card reveal">
-        <h3>ВЭД</h3>
-        <p>Импорт. Экспорт. Валютные операции.</p>
-        <a class="link-more" href="#contacts">Подробнее</a>
-      </article>
-      <article class="service-card reveal">
-        <h3>Валютный контроль</h3>
-        <p>Сопровождение валютных платежей и контроль соответствия требованиям.</p>
-        <a class="link-more" href="#contacts">Подробнее</a>
-      </article>
-      <article class="service-card reveal">
-        <h3>Товарный учёт</h3>
-        <p>Поступление, реализация и перемещение товаров.</p>
-        <a class="link-more" href="#contacts">Подробнее</a>
-      </article>
-      <article class="service-card reveal">
-        <h3>Расчёт заработной платы</h3>
-        <p>Зарплата, налоги и социальные платежи.</p>
-        <a class="link-more" href="#contacts">Подробнее</a>
-      </article>
-      <article class="service-card reveal">
-        <h3>ЭСФ / ЭАВР / СНТ</h3>
-        <p>Электронные счета-фактуры, акты и сопроводительные накладные.</p>
-        <a class="link-more" href="#contacts">Подробнее</a>
-      </article>
-      <article class="service-card reveal">
-        <h3>Восстановление бухгалтерского учёта</h3>
-        <p>Систематизация и восстановление учёта за прошлые периоды.</p>
-        <a class="link-more" href="#contacts">Подробнее</a>
-      </article>
-      <article class="service-card reveal">
-        <h3>Консультации бухгалтера</h3>
-        <p>Ответы на сложные вопросы и поддержка решений бизнеса.</p>
-        <a class="link-more" href="#contacts">Подробнее</a>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- ========== WHY ========== -->
 <section class="why" id="why">
   <div class="section-inner">
-    <h2 class="section-title reveal">Почему выбирают MBbuh</h2>
+    <h2 class="section-title reveal">Почему MBbuh</h2>
     <div class="why__grid">
-      <article class="why-card reveal"><h3>Работаем строго по законодательству РК</h3><p>Учитываем актуальные требования налогового и бухгалтерского законодательства Казахстана.</p></article>
-      <article class="why-card reveal"><h3>Отчётность вовремя</h3><p>Контролируем сроки и сдаём отчётность без просрочек и штрафов.</p></article>
-      <article class="why-card reveal"><h3>Личный бухгалтер</h3><p>За каждым клиентом закреплён персональный специалист.</p></article>
-      <article class="why-card reveal"><h3>Конфиденциальность документов</h3><p>Документы и данные компании защищены и обрабатываются безопасно.</p></article>
-      <article class="why-card reveal"><h3>Законная оптимизация налогов</h3><p>Подбираем корректные решения в рамках действующего законодательства.</p></article>
-      <article class="why-card reveal"><h3>Работаем онлайн по всему Казахстану</h3><p>Сопровождаем бизнес удалённо — из любого города Республики Казахстан.</p></article>
+      <article class="why-card reveal"><h3>Индивидуальный бухгалтер.</h3><p>За каждым клиентом закреплён личный специалист.</p></article>
+      <article class="why-card reveal"><h3>Работаем по законодательству РК.</h3><p>Учитываем актуальные требования налогового контура Казахстана.</p></article>
+      <article class="why-card reveal"><h3>Контроль сроков отчётности.</h3><p>Сдаём формы вовремя и заранее напоминаем о дедлайнах.</p></article>
+      <article class="why-card reveal"><h3>Конфиденциальность данных.</h3><p>Документы и цифры компании обрабатываются безопасно.</p></article>
+      <article class="why-card reveal"><h3>Оптимизация налоговой нагрузки.</h3><p>Подбираем корректные решения в рамках закона.</p></article>
+      <article class="why-card reveal"><h3>Поддержка бизнеса по всему Казахстану.</h3><p>Онлайн из любого города и офлайн в офисе в Алматы.</p></article>
     </div>
   </div>
 </section>
 
-<!-- ========== AUDIENCE ========== -->
-<section class="audience" id="audience">
-  <div class="section-inner">
-    <p class="eyebrow reveal">Кому подходим</p>
-    <h2 class="section-title reveal">Сопровождаем ИП и ТОО на разных режимах</h2>
-    <p class="section-lead reveal">Так же, как сильные бухгалтерские компании Казахстана, сразу показываем, с кем работаем — без «универсальных обещаний».</p>
-    <div class="audience__grid">
-      <article class="audience-card reveal"><h3>ИП на упрощёнке</h3><p>Услуги, небольшой документооборот, без штата или с 1–2 сотрудниками.</p></article>
-      <article class="audience-card reveal"><h3>ТОО без НДС</h3><p>Растущий бизнес, которому нужен порядок в учёте дешевле штатного бухгалтера.</p></article>
-      <article class="audience-card reveal"><h3>ТОО с НДС</h3><p>Форма 300, ЭСФ, зачёты и контроль налоговых рисков.</p></article>
-      <article class="audience-card reveal"><h3>ВЭД и валюта</h3><p>Импорт, экспорт, валютный контроль и платежи нерезидентам.</p></article>
-      <article class="audience-card reveal"><h3>Торговля и услуги</h3><p>Товарный учёт, акты, касса и регулярная первичка.</p></article>
-      <article class="audience-card reveal"><h3>Переход от другого бухгалтера</h3><p>Принимаем дела, проверяем базу и при необходимости восстанавливаем учёт.</p></article>
-    </div>
-  </div>
-</section>
-
-<!-- ========== PROCESS ========== -->
-<section class="process" id="process">
-  <div class="section-inner">
-    <p class="eyebrow reveal">Как мы работаем</p>
-    <h2 class="section-title reveal">Прозрачный старт за 4 шага</h2>
-    <p class="section-lead reveal">Вы остаётесь в бизнесе. Мы берём на себя учёт, налоги, сроки и общение с госорганами.</p>
-    <ol class="process__grid">
-      <li class="process-card reveal">
-        <span class="process-card__num">01</span>
-        <h3>Заявка</h3>
-        <p>Пишете в WhatsApp или оставляете заявку на сайте. Отвечаем в рабочее время 09:00–18:00.</p>
-      </li>
-      <li class="process-card reveal">
-        <span class="process-card__num">02</span>
-        <h3>Бесплатный разбор</h3>
-        <p>Уточняем форму бизнеса, налоговый режим, операции, сотрудников и состояние учёта.</p>
-      </li>
-      <li class="process-card reveal">
-        <span class="process-card__num">03</span>
-        <h3>Договор и цена</h3>
-        <p>Фиксируем стоимость и объём работ. Без скрытых доплат в процессе месяца.</p>
-      </li>
-      <li class="process-card reveal">
-        <span class="process-card__num">04</span>
-        <h3>Личный бухгалтер</h3>
-        <p>Принимаем документы, ведём учёт, сдаём отчётность и держим сроки под контролем.</p>
-      </li>
-    </ol>
-    <div class="process__docs reveal">
-      <h3>Что нужно для старта</h3>
-      <ul>
-        <li>Свидетельство или талон о регистрации ИП / ТОО</li>
-        <li>БИН или ИИН, банковские реквизиты</li>
-        <li>Доступ в Кабинет налогоплательщика, ИС ЭСФ и 1С — если уже есть</li>
-        <li>Договоры, акты, ЭСФ и банковские выписки за текущий период</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<!-- ========== COMPARE ========== -->
-<section class="compare" id="compare">
-  <div class="section-inner">
-    <h2 class="section-title reveal">Штатный бухгалтер или MBbuh</h2>
-    <p class="section-lead reveal">На сайтах бухгалтерских компаний Казахстана этот блок помогает быстро понять выгоду аутсорсинга.</p>
-    <div class="compare__grid">
-      <article class="compare-card reveal">
-        <h3>Штатный бухгалтер</h3>
-        <ul>
-          <li>Зарплата, налоги, отпускные и больничные</li>
-          <li>Риск ошибок остаётся на компании</li>
-          <li>Если сотрудник заболел или уволился — учёт встаёт</li>
-          <li>Нужны рабочее место, 1С и контроль задач</li>
-        </ul>
-      </article>
-      <article class="compare-card compare-card--accent reveal">
-        <h3>Сопровождение MBbuh</h3>
-        <ul>
-          <li>Фиксированная цена по договору</li>
-          <li>Личный бухгалтер и команда на подхвате</li>
-          <li>Сроки отчётности под контролем</li>
-          <li>Онлайн по всему Казахстану, офис в Алматы</li>
-        </ul>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- ========== ABOUT MARIA ========== -->
-<section class="about" id="about">
-  <div class="section-inner about__grid">
-    <div class="about__photo reveal">
-      <img src="assets/img/maria.jpg?v=1" alt="Мария — руководитель MBbuh">
-    </div>
-    <div class="about__content reveal">
-      <p class="eyebrow">О компании</p>
-      <h2 class="section-title">Знакомство с Марией</h2>
-      <p>Здравствуйте, я Мария — руководитель бухгалтерской компании MBbuh.</p>
-      <p>Помогаю предпринимателям спокойно вести бухгалтерию без штрафов и переплат.</p>
-      <p>Мы сопровождаем ИП и ТОО от регистрации бизнеса до полной налоговой отчётности.</p>
-      <div class="about__chips">
-        <span>Индивидуальный подход</span>
-        <span>Всегда на связи</span>
-        <span>Работаем по всему Казахстану</span>
-        <span>Отчётность точно в срок</span>
-      </div>
-      <a class="btn btn--burgundy" href="https://wa.me/77760053437?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%9C%D0%B0%D1%80%D0%B8%D1%8F!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E." target="_blank" rel="noopener noreferrer">Получить консультацию Марии</a>
-    </div>
-  </div>
-</section>
-
-<!-- ========== INCLUDED ========== -->
-<section class="included" id="included">
-  <div class="section-inner">
-    <h2 class="section-title reveal">Что входит в сопровождение</h2>
-    <ul class="checklist reveal">
-      <li>Бухгалтерский учёт</li>
-      <li>Налоговый учёт</li>
-      <li>Статистическая отчётность</li>
-      <li>ЭСФ</li>
-      <li>ЭАВР</li>
-      <li>СНТ</li>
-      <li>Расчёт заработной платы</li>
-      <li>Кадровый учёт</li>
-      <li>Консультации бухгалтера</li>
-      <li>Контроль сроков отчётности</li>
-      <li>Подготовка первичной документации</li>
-      <li>Помощь при уведомлениях налоговой</li>
-    </ul>
-  </div>
-</section>
-
-<!-- ========== TARIFFS ========== -->
-<section class="tariffs" id="tariffs">
-  <div class="section-inner">
-    <h2 class="section-title reveal">Тарифы</h2>
-    <div class="tariffs__grid">
-      <article class="tariff-card reveal">
-        <p class="tariff-card__name">START</p>
-        <h3>ИП</h3>
-        <p class="tariff-card__price">от 25 000 ₸ <span>/ месяц</span></p>
-        <a class="btn btn--outline" href="calculator.html">Подобрать тариф</a>
-      </article>
-      <article class="tariff-card tariff-card--featured reveal">
-        <p class="tariff-card__name">BUSINESS</p>
-        <h3>ТОО</h3>
-        <p class="tariff-card__price">от 40 000 ₸ <span>/ месяц</span></p>
-        <a class="btn btn--gold" href="calculator.html">Подобрать тариф</a>
-      </article>
-      <article class="tariff-card reveal">
-        <p class="tariff-card__name">PREMIUM</p>
-        <h3>ТОО + НДС + ВЭД</h3>
-        <p class="tariff-card__price">от 60 000 ₸ <span>/ месяц</span></p>
-        <a class="btn btn--outline" href="calculator.html">Подобрать тариф</a>
-      </article>
-    </div>
-    <p class="tariffs__note reveal">Точная стоимость рассчитывается индивидуально после бесплатного разбора деятельности вашей компании.</p>
-  </div>
-</section>
-
-<!-- ========== ONCE SERVICES ========== -->
-<section class="once" id="once">
-  <div class="section-inner">
-    <p class="eyebrow reveal">Разовые услуги</p>
-    <h2 class="section-title reveal">Можно заказать отдельно, без постоянного сопровождения</h2>
-    <div class="once__grid">
-      <article class="once-card reveal">
-        <h3>Регистрация ИП</h3>
-        <p>Подберём режим и ОКЭД, подготовим документы и зарегистрируем ИП.</p>
-        <p class="once-card__price">от 15 000 ₸</p>
-      </article>
-      <article class="once-card reveal">
-        <h3>Регистрация ТОО</h3>
-        <p>Учредительные документы, регистрация и запуск учёта.</p>
-        <p class="once-card__price">от 35 000 ₸</p>
-      </article>
-      <article class="once-card reveal">
-        <h3>Постановка / снятие с НДС</h3>
-        <p>Поможем с постановкой на НДС или снятием с учёта.</p>
-        <p class="once-card__price">от 20 000 ₸</p>
-      </article>
-      <article class="once-card reveal">
-        <h3>Восстановление учёта</h3>
-        <p>Систематизируем документы и восстановим бухгалтерию за прошлые периоды.</p>
-        <p class="once-card__price">от 50 000 ₸</p>
-      </article>
-      <article class="once-card reveal">
-        <h3>Ответ на уведомление налоговой</h3>
-        <p>Разберём уведомление и подготовим корректный ответ.</p>
-        <p class="once-card__price">от 25 000 ₸</p>
-      </article>
-      <article class="once-card reveal">
-        <h3>Разовая консультация</h3>
-        <p>Разбор конкретной ситуации по налогам, режиму или документам.</p>
-        <p class="once-card__price">от 15 000 ₸</p>
-      </article>
-    </div>
-    <div class="once__action reveal">
-      <a class="btn btn--burgundy" href="https://wa.me/77760053437?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D1%8F%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B0%20MBbuh." target="_blank" rel="noopener noreferrer">Заказать разовую услугу</a>
-    </div>
-  </div>
-</section>
-
-<!-- ========== CALC CTA ========== -->
-<section class="calc-cta" id="calc-cta">
+<section class="calc-cta">
   <div class="calc-cta__box reveal">
-    <h2>Рассчитайте стоимость бухгалтерского сопровождения</h2>
-    <p>Ответьте на несколько вопросов — получите предварительную стоимость за 30 секунд.</p>
-    <a class="btn btn--burgundy" href="calculator.html">Открыть калькулятор</a>
+    <h2>Узнайте стоимость сопровождения за 1 минуту</h2>
+    <p>Ответьте на несколько вопросов — получите предварительный расчёт.</p>
+    <a class="btn btn--burgundy" href="calculator.html">Перейти к калькулятору</a>
   </div>
 </section>
 
-<!-- ========== INSTAGRAM ARTICLES ========== -->
-<section class="blog" id="blog">
+<section class="instagram" id="instagram">
   <div class="section-inner">
-    <p class="eyebrow reveal">Instagram</p>
-    <h2 class="section-title reveal">Полезное из Instagram MBbuh</h2>
-    <div class="blog__grid">
-      <article class="blog-card reveal">
-        <h3>Бухгалтерия для бизнеса без головной боли</h3>
-        <p>Как делегировать учёт и освободить время для роста компании — без хаоса в документах и срочных дедлайнов.</p>
-      </article>
-      <article class="blog-card reveal">
-        <h3>За что вы платите бухгалтеру</h3>
-        <p>Разбираем, из чего складывается стоимость сопровождения и какие задачи действительно влияют на цену.</p>
-      </article>
-      <article class="blog-card reveal">
-        <h3>ИП или ТОО — что выбрать</h3>
-        <p>Коротко о форматах бизнеса, налоговой нагрузке и том, когда выгоднее открывать ИП, а когда — ТОО.</p>
-      </article>
-      <article class="blog-card reveal">
-        <h3>Ошибки предпринимателей</h3>
-        <p>Типичные промахи в учёте и отчётности, которые приводят к штрафам — и как их избежать заранее.</p>
-      </article>
-      <article class="blog-card reveal">
-        <h3>Изменения налогового законодательства</h3>
-        <p>Что важно знать бизнесу о текущих требованиях и как вовремя адаптировать учёт под новые правила.</p>
-      </article>
-      <article class="blog-card reveal">
-        <h3>Советы для бизнеса</h3>
-        <p>Практические рекомендации по документообороту, кассе, ЭСФ и контролю сроков отчётности.</p>
-      </article>
-    </div>
-    <div class="blog__action reveal">
-      <a class="btn btn--gold" href="https://instagram.com/mbbuhbalance" target="_blank" rel="noopener noreferrer">Подписаться на @mbbuhbalance</a>
+    <div class="instagram__box reveal">
+      <p class="eyebrow">Instagram</p>
+      <h2 class="section-title">Следите за MBbuh в Instagram</h2>
+      <p class="instagram__handle">@mbbuhbalance</p>
+      <a class="btn btn-primary" href="https://instagram.com/mbbuhbalance" target="_blank" rel="noopener noreferrer">Перейти в Instagram</a>
     </div>
   </div>
 </section>
-
-<!-- ========== REVIEWS ========== -->
-<section class="reviews" id="reviews">
-  <div class="section-inner">
-    <h2 class="section-title reveal">Отзывы клиентов MBbuh</h2>
-    <div class="reviews__grid">
-      <article class="review-card reveal">
-        <div class="stars" aria-label="Оценка 5 из 5">★★★★★</div>
-        <p>«Передали бухгалтерию в MBbuh — отчётность сдаётся вовремя, всегда на связи. Спокойно занимаемся продажами.»</p>
-        <strong>Айгуль С.</strong>
-        <span>ТОО, Алматы</span>
-      </article>
-      <article class="review-card reveal">
-        <div class="stars" aria-label="Оценка 5 из 5">★★★★★</div>
-        <p>«Открывали ИП и сразу взяли сопровождение. Мария всё объяснила понятно, без лишней воды.»</p>
-        <strong>Ерлан К.</strong>
-        <span>ИП, Шымкент</span>
-      </article>
-      <article class="review-card reveal">
-        <div class="stars" aria-label="Оценка 5 из 5">★★★★★</div>
-        <p>«Работаем с НДС и импортом. Команда MBbuh держит документы в порядке, уведомления отрабатывают быстро.»</p>
-        <strong>Дана Т.</strong>
-        <span>ТОО, Астана</span>
-      </article>
-    </div>
-    <div class="reviews__action reveal">
-      <a class="btn btn--burgundy" href="https://go.2gis.com/TpNak" target="_blank" rel="noopener noreferrer">Смотреть отзывы в 2ГИС</a>
-      <p class="reviews__note">Официальная карточка MBbuh в 2ГИС.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ========== FAQ ========== -->
-<section class="faq" id="faq">
-  <div class="section-inner">
-    <h2 class="section-title reveal">Часто задаваемые вопросы</h2>
-    <div class="faq__list reveal">
-      <details class="faq-item">
-        <summary>Сколько стоит бухгалтерское сопровождение?</summary>
-        <p>Стоимость зависит от формы бизнеса, налогового режима, объёма операций и дополнительных услуг. Ориентир: от 25 000 ₸ для ИП и от 40 000 ₸ для ТОО. Точный расчёт — после бесплатного разбора деятельности.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Что входит в стоимость?</summary>
-        <p>В сопровождение обычно входят бухгалтерский и налоговый учёт, отчётность, ЭСФ/ЭАВР/СНТ по необходимости, расчёт зарплаты, консультации и контроль сроков.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Работаете ли онлайн?</summary>
-        <p>Да. MBbuh сопровождает клиентов онлайн по всему Казахстану и офлайн — в офисе в Алматы.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Работаете ли с ИП?</summary>
-        <p>Да, сопровождаем индивидуальных предпринимателей на упрощённом и общеустановленном режимах.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Работаете ли с ТОО?</summary>
-        <p>Да, ведём полное бухгалтерское сопровождение товариществ с ограниченной ответственностью.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Можно ли сопровождать компанию с НДС?</summary>
-        <p>Да. Работаем с плательщиками НДС и помогаем с постановкой и снятием с НДС.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Работаете ли с импортом и экспортом?</summary>
-        <p>Да, сопровождаем ВЭД: импорт, экспорт, валютные операции и валютный контроль.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Что делать, если пришло уведомление налоговой?</summary>
-        <p>Свяжитесь с нами в WhatsApp — разберём уведомление и подготовим корректный ответ. Это можно оформить как разовую услугу.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Можно ли восстановить бухгалтерию за прошлые периоды?</summary>
-        <p>Да. Восстанавливаем учёт и систематизируем документы за прошлые периоды — стоимость рассчитывается индивидуально.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Как начать работу с MBbuh?</summary>
-        <p>Оставьте заявку или напишите в WhatsApp. Сделаем бесплатный разбор деятельности, назовём стоимость и закрепим условия в договоре. Для старта нужны регистрационные данные, доступы в налоговые системы и текущие документы.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Работаете ли в 1С, ИС ЭСФ и СОНО?</summary>
-        <p>Да. Ведём учёт в 1С, работаем с ИС ЭСФ, ЭАВР, СНТ, СОНО и Кабинетом налогоплательщика — по требованиям законодательства РК.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Можно заказать только разовую услугу?</summary>
-        <p>Да. Отдельно оформляем регистрацию ИП и ТОО, постановку или снятие с НДС, восстановление учёта, ответ на уведомление налоговой и разовую консультацию.</p>
-      </details>
-    </div>
-  </div>
-</section>
-
-<!-- ========== CONTACTS ========== -->
-<section class="contacts" id="contacts">
-  <div class="section-inner">
-    <p class="eyebrow reveal">КОНТАКТЫ</p>
-    <h2 class="section-title reveal">Свяжитесь с нами</h2>
-    <p class="section-lead reveal">Мы всегда на связи и готовы помочь с бухгалтерией, налогами и сопровождением бизнеса по всему Казахстану.</p>
-
-    <div class="contacts__grid">
-      <div class="contacts__cards">
-        <article class="contact-card reveal">
-          <h3>WhatsApp</h3>
-          <p class="contact-card__strong">+7 776 005 34 37</p>
-          <a class="btn btn--gold" href="https://wa.me/77760053437" target="_blank" rel="noopener noreferrer">Написать в WhatsApp</a>
-          <p class="contact-card__note">Отвечаем ежедневно с 09:00 до 18:00.</p>
-        </article>
-        <article class="contact-card reveal">
-          <h3>Instagram</h3>
-          <p class="contact-card__strong">@mbbuhbalance</p>
-          <a class="btn btn--outline" href="https://instagram.com/mbbuhbalance" target="_blank" rel="noopener noreferrer">Перейти в Instagram</a>
-        </article>
-        <article class="contact-card reveal">
-          <h3>Адрес</h3>
-          <p class="contact-card__strong">г. Алматы</p>
-          <p class="contact-card__strong">ул. Керуентау, 2/2</p>
-          <p class="contact-card__strong">2 этаж, офис 30</p>
-        </article>
-        <article class="contact-card reveal">
-          <h3>График работы</h3>
-          <p class="contact-card__strong">Понедельник — Пятница</p>
-          <p class="contact-card__strong">09:00–18:00</p>
-          <p>Суббота — по записи.</p>
-          <p>Воскресенье — выходной.</p>
-        </article>
-      </div>
-
-      <aside class="contacts__aside reveal">
-        <div class="contacts__photo">
-          <img src="assets/img/office.jpg" alt="Офис MBbuh" onerror="this.src='assets/img/desk.jpg'">
-        </div>
-        <blockquote class="contacts__quote">Берём бухгалтерию на себя — вы занимаетесь развитием бизнеса.</blockquote>
-        <form class="lead-form" id="leadForm">
-          <h3>Оставить заявку</h3>
-          <p>Заявка уйдёт в WhatsApp. Бесплатно разберём ваш бизнес и назовём стоимость.</p>
-          <label>
-            Имя
-            <input type="text" name="name" required maxlength="80" autocomplete="name" placeholder="Как к вам обращаться">
-          </label>
-          <label>
-            Телефон
-            <input type="tel" name="phone" required maxlength="20" autocomplete="tel" placeholder="+7 7XX XXX XX XX">
-          </label>
-          <label>
-            Форма бизнеса
-            <select name="type">
-              <option value="ИП">ИП</option>
-              <option value="ТОО">ТОО</option>
-              <option value="Пока не знаю">Пока не знаю</option>
-            </select>
-          </label>
-          <label>
-            Комментарий
-            <textarea name="comment" rows="3" maxlength="400" placeholder="Режим, сотрудники, что нужно сделать"></textarea>
-          </label>
-          <button class="btn btn--burgundy" type="submit">Отправить в WhatsApp</button>
-        </form>
-      </aside>
-    </div>
-
-    <div class="contacts-map reveal">
-      <h3>Где находится офис MBbuh</h3>
-      <div class="contacts-map__frame">
-        <iframe title="Офис MBbuh на карте" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B%2C%20%D1%83%D0%BB.%20%D0%9A%D0%B5%D1%80%D1%83%D0%B5%D0%BD%D1%82%D0%B0%D1%83%2C%202%2F2&z=16&output=embed"></iframe>
-      </div>
-      <a class="btn btn--gold" href="https://go.2gis.com/TpNak" target="_blank" rel="noopener noreferrer">Открыть маршрут в 2ГИС</a>
-    </div>
-  </div>
-</section>
-
-<!-- ========== FINAL CTA ========== -->
-<section class="final-cta">
-  <div class="final-cta__box reveal">
-    <h2>Остались вопросы?</h2>
-    <p>Получите бесплатный разбор деятельности вашей компании и точный расчёт стоимости бухгалтерского сопровождения.</p>
-    <div class="buttons">
-      <a class="btn btn--burgundy" href="https://wa.me/77760053437" target="_blank" rel="noopener noreferrer">Получить консультацию</a>
-      <a class="btn btn--outline-dark" href="calculator.html">Рассчитать стоимость</a>
-    </div>
-  </div>
-</section>
-
 </main>
 
-<!-- ========== FOOTER ========== -->
 <footer class="site-footer">
   <div class="site-footer__main">
     <div class="site-footer__brand">
-      <a href="index.html"><img src="assets/logo/logo.png?v=1" class="site-footer__logo" alt="MBbuh"></a>
-      <p>Бухгалтерия • Налоги • Развитие бизнеса</p>
+      <a href="index.html"><img src="assets/logo/logo.png?v=9" class="site-footer__logo" alt="MBbuh"></a>
+      <p>Бухгалтерия • Налоги • Развитие бизнеса.</p>
     </div>
     <nav class="site-footer__nav" aria-label="Меню">
       <a href="index.html">Главная</a>
-      <a href="#services">Услуги</a>
+      <a href="services.html">Услуги</a>
+      <a href="prices.html">Цены</a>
       <a href="calculator.html">Калькулятор</a>
-      <a href="#process">Как мы работаем</a>
-      <a href="#about">О компании</a>
-      <a href="#reviews">Отзывы</a>
-      <a href="#contacts">Контакты</a>
+      <a href="blog.html">Блог</a>
+      <a href="reviews.html">Отзывы</a>
+      <a href="contacts.html">Контакты</a>
     </nav>
     <div class="site-footer__contacts">
       <p><strong>Instagram</strong><br><a href="https://instagram.com/mbbuhbalance" target="_blank" rel="noopener noreferrer">@mbbuhbalance</a></p>
       <p><strong>WhatsApp</strong><br><a href="https://wa.me/77760053437" target="_blank" rel="noopener noreferrer">+7 776 005 34 37</a></p>
+      <p><strong>2ГИС</strong><br><a href="https://go.2gis.com/TpNak" target="_blank" rel="noopener noreferrer">Маршрут до офиса</a></p>
       <p><strong>Адрес</strong><br>г. Алматы, ул. Керуентау, 2/2, 2 этаж, офис 30</p>
     </div>
   </div>
-  <div class="site-footer__bottom">
-    <p>© 2026 MBbuh. Все права защищены.</p>
-    <p class="site-footer__tagline">Ваш надёжный бухгалтер в Алматы</p>
-  </div>
+  <div class="site-footer__bottom"><p>© 2026 MBbuh. Все права защищены.</p></div>
 </footer>
-
-<!-- Floating controls -->
-<a class="float-wa" href="https://wa.me/77760053437" target="_blank" rel="noopener noreferrer" aria-label="Написать в WhatsApp">
-  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0012.04 2zm0 1.8c4.46 0 8.11 3.65 8.11 8.11 0 4.47-3.65 8.11-8.11 8.11-1.42 0-2.81-.37-4.03-1.07l-.29-.17-3.12.82.83-3.04-.19-.31a8.07 8.07 0 01-1.23-4.34c0-4.46 3.65-8.11 8.13-8.11zm4.63 10.49c-.25-.13-1.5-.74-1.73-.82-.23-.09-.4-.13-.57.13-.17.25-.65.82-.8.99-.15.17-.29.19-.54.06-.25-.13-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.12-.12.25-.29.37-.43.12-.15.17-.25.25-.42.09-.17.04-.32-.02-.45-.06-.13-.57-1.37-.78-1.88-.2-.48-.41-.42-.57-.43h-.48c-.17 0-.45.06-.68.32-.23.25-.9.88-.9 2.14s.92 2.48 1.05 2.65c.13.17 1.81 2.77 4.39 3.88 1.55.67 2.16.73 2.93.61.47-.07 1.5-.61 1.71-1.2.21-.59.21-1.1.15-1.2-.07-.1-.24-.17-.49-.3z"/></svg>
-</a>
+<a class="float-wa" href="https://wa.me/77760053437?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0012.04 2zm0 1.8c4.46 0 8.11 3.65 8.11 8.11 0 4.47-3.65 8.11-8.11 8.11-1.42 0-2.81-.37-4.03-1.07l-.29-.17-3.12.82.83-3.04-.19-.31a8.07 8.07 0 01-1.23-4.34c0-4.46 3.65-8.11 8.13-8.11zm4.63 10.49c-.25-.13-1.5-.74-1.73-.82-.23-.09-.4-.13-.57.13-.17.25-.65.82-.8.99-.15.17-.29.19-.54.06-.25-.13-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.12-.12.25-.29.37-.43.12-.15.17-.25.25-.42.09-.17.04-.32-.02-.45-.06-.13-.57-1.37-.78-1.88-.2-.48-.41-.42-.57-.43h-.48c-.17 0-.45.06-.68.32-.23.25-.9.88-.9 2.14s.92 2.48 1.05 2.65c.13.17 1.81 2.77 4.39 3.88 1.55.67 2.16.73 2.93.61.47-.07 1.5-.61 1.71-1.2.21-.59.21-1.1.15-1.2-.07-.1-.24-.17-.49-.3z"/></svg></a>
 <button class="to-top" type="button" id="toTop" aria-label="Наверх">↑</button>
-
 <script src="js/script.js"></script>
 </body>
 </html>

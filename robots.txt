@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://boyarinjenya-png.github.io/MBbuh/sitemap.xml

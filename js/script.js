@@ -15,6 +15,11 @@
         navToggle.setAttribute("aria-expanded", "false");
       });
     });
+    const onHeaderScroll = () => {
+      header.classList.toggle("is-scrolled", window.scrollY > 8);
+    };
+    window.addEventListener("scroll", onHeaderScroll, { passive: true });
+    onHeaderScroll();
   }
 
   const toTop = document.getElementById("toTop");
