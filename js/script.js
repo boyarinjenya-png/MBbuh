@@ -28,6 +28,31 @@
     onScroll();
   }
 
+  const leadForm = document.getElementById("leadForm");
+  if (leadForm) {
+    leadForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const data = new FormData(leadForm);
+      const name = String(data.get("name") || "").trim();
+      const phone = String(data.get("phone") || "").trim();
+      const type = String(data.get("type") || "").trim();
+      const comment = String(data.get("comment") || "").trim();
+      const text = [
+        "Здравствуйте! Заявка с сайта MBbuh.",
+        "",
+        `Имя: ${name}`,
+        `Телефон: ${phone}`,
+        `Форма бизнеса: ${type}`,
+        comment ? `Комментарий: ${comment}` : "",
+        "",
+        "Прошу сделать бесплатный разбор и назвать стоимость сопровождения.",
+      ]
+        .filter(Boolean)
+        .join("\n");
+      window.open("https://wa.me/77760053437?text=" + encodeURIComponent(text), "_blank", "noopener,noreferrer");
+    });
+  }
+
   /* Reveal on scroll */
   const reveals = document.querySelectorAll(".reveal");
   if (reveals.length) {
