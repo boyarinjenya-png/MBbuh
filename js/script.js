@@ -5,15 +5,16 @@
   const navToggle = document.getElementById("navToggle");
   const header = document.querySelector(".header");
   if (navToggle && header) {
-    navToggle.addEventListener("click", () => {
-      const open = header.classList.toggle("is-open");
+    const setOpen = (open) => {
+      header.classList.toggle("is-open", open);
       navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+      navToggle.setAttribute("aria-label", open ? "Закрыть меню" : "Открыть меню");
+    };
+    navToggle.addEventListener("click", () => {
+      setOpen(!header.classList.contains("is-open"));
     });
     header.querySelectorAll(".header__nav a").forEach((a) => {
-      a.addEventListener("click", () => {
-        header.classList.remove("is-open");
-        navToggle.setAttribute("aria-expanded", "false");
-      });
+      a.addEventListener("click", () => setOpen(false));
     });
   }
 
