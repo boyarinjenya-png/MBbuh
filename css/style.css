@@ -422,17 +422,35 @@ a{color:inherit;}
 .site-footer{background:var(--burgundy);color:#fff;padding:52px 20px 22px;}
 .site-footer__main{
   max-width:1280px;margin:0 auto 24px;
-  display:grid;grid-template-columns:1fr;gap:24px;
+  display:grid;grid-template-columns:1fr;gap:32px;
+  align-items:start;
 }
 .site-footer__logo{
   width:160px;height:auto;background:#fff;border-radius:14px;padding:10px 12px;margin-bottom:12px;
 }
-.site-footer__brand p{color:var(--gold-light);font-size:14px;}
-.site-footer__nav{display:flex;flex-wrap:wrap;gap:10px 16px;}
-.site-footer__nav a{color:#fff;text-decoration:none;font-weight:600;font-size:14px;}
+.site-footer__brand p{color:var(--gold-light);font-size:14px;max-width:28ch;}
+.site-footer__nav{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px 28px;
+  align-content:start;
+}
+.site-footer__nav a{
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+  font-size:14px;
+  white-space:nowrap;
+  line-height:1.4;
+}
 .site-footer__nav a:hover{color:var(--gold);}
-.site-footer__contacts p{margin-bottom:12px;font-size:14px;color:rgba(255,255,255,.86);}
-.site-footer__contacts a{color:var(--gold);text-decoration:none;font-weight:700;}
+.site-footer__contacts{
+  display:grid;
+  gap:16px;
+}
+.site-footer__contacts p{margin:0;font-size:14px;color:rgba(255,255,255,.86);line-height:1.55;}
+.site-footer__contacts strong{color:#fff;font-weight:700;}
+.site-footer__contacts a{color:var(--gold);text-decoration:none;font-weight:700;white-space:nowrap;}
 .site-footer__bottom{
   max-width:1280px;margin:0 auto;padding-top:16px;
   border-top:1px solid var(--gold);
@@ -590,6 +608,8 @@ a{color:inherit;}
   .hero{padding:calc(var(--header-h) + 24px) 28px 64px;}
   .buttons .btn{width:auto;}
   .header__inner{padding:0 24px;}
+  .site-footer__main{grid-template-columns:1fr 1fr;gap:32px 40px;}
+  .site-footer__brand{grid-column:1 / -1;}
 }
 @media (min-width:1024px){
   .nav-toggle{display:none;}
@@ -608,7 +628,12 @@ a{color:inherit;}
   .prices__grid{grid-template-columns:repeat(3,1fr);}
   .about__grid{grid-template-columns:.9fr 1.1fr;}
   .contacts-grid{grid-template-columns:1fr 1fr;}
-  .site-footer__main{grid-template-columns:1.2fr 1fr 1.1fr;}
+  .site-footer__brand{grid-column:auto;}
+  .site-footer__main{
+    grid-template-columns:minmax(240px,1.3fr) minmax(200px,0.8fr) minmax(260px,1.1fr);
+    gap:40px 56px;
+  }
+  .site-footer__nav{grid-template-columns:1fr;gap:12px;}
   .calc-cards--3{grid-template-columns:repeat(3,1fr);}
   .calculator__layout{grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr);align-items:start;}
   .calculator__result{position:sticky;top:92px;}
