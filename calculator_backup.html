@@ -7,11 +7,11 @@
   <meta name="description" content="Рассчитайте предварительную стоимость бухгалтерского сопровождения ИП и ТОО в MBbuh. Результат обновляется сразу.">
   <meta property="og:title" content="Калькулятор стоимости — MBbuh">
   <meta property="og:description" content="Предварительный расчёт сопровождения ИП и ТОО.">
-  <meta property="og:image" content="https://boyarinjenya-png.github.io/MBbuh/assets/logo/logo-square.png">
+  <meta property="og:image" content="assets/logo/logo-square.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=21">
+  <link rel="stylesheet" href="css/style.css?v=15">
   <link rel="icon" href="assets/logo/favicon-32.png" type="image/png">
 </head>
 <body>
@@ -22,7 +22,7 @@
     <nav class="header__nav" id="siteNav" aria-label="Основное меню">
       <a href="index.html">Главная</a>
       <a href="services.html">Услуги</a>
-      <a href="prices.html">Стоимость услуг</a>
+      <a href="prices.html">Цены</a>
       <a href="calculator.html" class="is-current">Калькулятор</a>
       <a href="blog.html">Полезные статьи</a>
       <a href="about.html">О компании</a>
@@ -56,16 +56,16 @@
           <div class="calc-step">
             <div class="calc-step__title"><span class="calc-step__num">1</span><h3>Тип бизнеса</h3></div>
             <div class="calc-cards calc-cards--2" data-group="type">
-              <button type="button" class="calc-pick is-active" data-value="ip"><strong>ИП</strong><span>Бухгалтерское сопровождение индивидуального предпринимателя</span></button>
-              <button type="button" class="calc-pick" data-value="too"><strong>ТОО</strong><span>Полное сопровождение юридического лица</span></button>
+              <button type="button" class="calc-pick is-active" data-value="ip"><strong>ИП</strong><span>Бухгалтерское сопровождение индивидуального предпринимателя.</span></button>
+              <button type="button" class="calc-pick" data-value="too"><strong>ТОО</strong><span>Полное сопровождение юридического лица.</span></button>
             </div>
           </div>
           <div class="calc-step">
             <div class="calc-step__title"><span class="calc-step__num">2</span><h3>Налоговый режим</h3></div>
             <div class="calc-cards calc-cards--3" data-group="tax">
-              <button type="button" class="calc-pick is-active" data-value="snr"><strong>Упрощённая декларация</strong><span>ИП или ТОО на упрощённой декларации (СНР)</span></button>
-              <button type="button" class="calc-pick" data-value="our"><strong>Общий режим</strong><span>Полный бухгалтерский учёт. Возможно ведение НДС</span></button>
-              <button type="button" class="calc-pick" data-value="unknown"><strong>Не знаю</strong><span>Нужна помощь — бесплатно определим подходящий режим</span></button>
+              <button type="button" class="calc-pick is-active" data-value="snr"><strong>Упрощённый режим</strong><span>ИП или ТОО на упрощённой декларации (СНР).</span></button>
+              <button type="button" class="calc-pick" data-value="our"><strong>Общеустановленный режим</strong><span>Полный бухгалтерский учёт. Возможно ведение НДС.</span></button>
+              <button type="button" class="calc-pick" data-value="unknown"><strong>Не знаю</strong><span>Нужна помощь — бесплатно определим подходящий режим.</span></button>
             </div>
             <p class="calc-tax-hint" id="taxHint" hidden>Мы бесплатно поможем определить оптимальный налоговый режим после знакомства с деятельностью вашей компании.</p>
           </div>
@@ -86,14 +86,14 @@
             </div>
           </div>
           <div class="calc-step">
-            <div class="calc-step__title"><span class="calc-step__num">5</span><h3>Есть ли НДС</h3></div>
+            <div class="calc-step__title"><span class="calc-step__num">5</span><h3>Плательщик НДС</h3></div>
             <div class="calc-yn" data-group="nds">
               <button type="button" class="calc-yn__btn is-active" data-value="no">Нет</button>
               <button type="button" class="calc-yn__btn" data-value="yes">Да</button>
             </div>
           </div>
           <div class="calc-step">
-            <div class="calc-step__title"><span class="calc-step__num">6</span><h3>Есть ли импорт или экспорт</h3></div>
+            <div class="calc-step__title"><span class="calc-step__num">6</span><h3>Есть ВЭД?</h3></div>
             <div class="calc-yn" data-group="ved">
               <button type="button" class="calc-yn__btn is-active" data-value="no">Нет</button>
               <button type="button" class="calc-yn__btn" data-value="yes">Да</button>
@@ -148,13 +148,13 @@
           <div class="calc-disclaimer__icon" aria-hidden="true">
             <svg viewBox="0 0 48 48" fill="none"><path d="M24 8l14 6v10c0 9-6.5 16.5-14 19-7.5-2.5-14-10-14-19V14l14-6z" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M18 24l4.5 4.5L31 20" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
-          <h3>Что означает предварительная стоимость</h3>
+          <h3>Что означает предварительная стоимость?</h3>
           <p>Стоимость рассчитывается автоматически на основе выбранных параметров.</p>
           <p><strong>Точная стоимость определяется после бесплатного анализа деятельности вашей компании.</strong></p>
           <ul class="calc-perks">
-            <li>Бесплатная консультация.</li>
             <li>Без обязательств.</li>
-            <li>Индивидуальный расчёт стоимости.</li>
+            <li>Бесплатная консультация.</li>
+            <li>Индивидуальное предложение.</li>
           </ul>
         </div>
         <a class="btn btn-primary calc-wa" id="calcWhatsApp" href="https://wa.me/77760053437" target="_blank" rel="noopener noreferrer">Получить точный расчёт в WhatsApp</a>
@@ -187,7 +187,7 @@
     <nav class="site-footer__nav">
       <a href="index.html">Главная</a>
       <a href="services.html">Услуги</a>
-      <a href="prices.html">Стоимость услуг</a>
+      <a href="prices.html">Цены</a>
       <a href="calculator.html">Калькулятор</a>
       <a href="blog.html">Полезные статьи</a>
       <a href="about.html">О компании</a>
@@ -205,6 +205,6 @@
 </footer>
 <a class="float-wa" href="https://wa.me/77760053437" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0012.04 2zm0 1.8c4.46 0 8.11 3.65 8.11 8.11 0 4.47-3.65 8.11-8.11 8.11-1.42 0-2.81-.37-4.03-1.07l-.29-.17-3.12.82.83-3.04-.19-.31a8.07 8.07 0 01-1.23-4.34c0-4.46 3.65-8.11 8.13-8.11zm4.63 10.49c-.25-.13-1.5-.74-1.73-.82-.23-.09-.4-.13-.57.13-.17.25-.65.82-.8.99-.15.17-.29.19-.54.06-.25-.13-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.12-.12.25-.29.37-.43.12-.15.17-.25.25-.42.09-.17.04-.32-.02-.45-.06-.13-.57-1.37-.78-1.88-.2-.48-.41-.42-.57-.43h-.48c-.17 0-.45.06-.68.32-.23.25-.9.88-.9 2.14s.92 2.48 1.05 2.65c.13.17 1.81 2.77 4.39 3.88 1.55.67 2.16.73 2.93.61.47-.07 1.5-.61 1.71-1.2.21-.59.21-1.1.15-1.2-.07-.1-.24-.17-.49-.3z"/></svg></a>
 <button class="to-top" type="button" id="toTop" aria-label="Наверх">↑</button>
-<script src="js/script.js?v=20"></script>
+<script src="js/script.js?v=15"></script>
 </body>
 </html>
