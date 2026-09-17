@@ -40,6 +40,7 @@
       const data = new FormData(leadForm);
       const name = String(data.get("name") || "").trim();
       const phone = String(data.get("phone") || "").trim();
+      const email = String(data.get("email") || "").trim();
       const type = String(data.get("type") || "").trim();
       const comment = String(data.get("comment") || "").trim();
       const text = [
@@ -47,6 +48,7 @@
         "",
         `Имя: ${name}`,
         `Телефон: ${phone}`,
+        email ? `Email: ${email}` : "",
         `Форма бизнеса: ${type}`,
         comment ? `Комментарий: ${comment}` : "",
         "",
