@@ -426,6 +426,17 @@
     });
   }
 
+  /* Service catalog: whole card opens the service page */
+  document.querySelectorAll("a.svc-card[href]").forEach((card) => {
+    card.addEventListener("click", (e) => {
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+      const href = card.getAttribute("href");
+      if (!href || href.startsWith("#") || href.startsWith("javascript:")) return;
+      e.preventDefault();
+      window.location.assign(href);
+    });
+  });
+
   /* ========== Calculator ========== */
   const root = document.getElementById("calculator");
   if (!root) return;
