@@ -10,11 +10,11 @@
   <meta property="og:image" content="https://boyarinjenya-png.github.io/MBbuh/assets/logo/logo-square.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=23">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=41">
   <link rel="icon" href="assets/logo/favicon-32.png?v=22" type="image/png">
 </head>
-<body>
+<body class="services-page">
 <header class="header">
   <div class="header__inner">
     <a class="header__logo" href="index.html" aria-label="MBbuh"><img src="assets/logo/logo.png?v=22" alt="MBbuh" width="120" height="40"></a>
@@ -33,54 +33,195 @@
   </div>
 </header>
 <main>
-<section class="page-hero">
-  <div class="section-inner reveal">
-    <h1>Наши услуги</h1>
-    <p class="section-lead">Сопровождение, отчётность, зарплата, ВЭД и разовые задачи — для ИП и ТОО по Казахстану.</p>
+<section class="svc-block svc-block--first" id="support">
+  <div class="section-inner">
+    <h1 class="section-title reveal">Бухгалтерское сопровождение</h1>
+    <p class="section-lead reveal">Полное ведение бухгалтерии для ИП и ТОО: документы, налоги, отчётность, НДС, ВЭД, ЭСФ и сопровождение бизнеса по всему Казахстану</p>
+    <div class="svc-grid">
+      <article class="svc-card reveal" data-service="ip" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+        <h3>Бухгалтерское сопровождение ИП</h3>
+        <p>Полное ведение бухгалтерии индивидуального предпринимателя, подготовка документов, налоговая и статистическая отчётность, консультации и контроль сроков</p>
+        <span class="svc-card__more">Подробнее</span>
+        <span class="svc-card__arrow" aria-hidden="true">→</span>
+      </article>
+      <article class="svc-card reveal" data-service="too" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="4" y="7" width="16" height="13" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M9 7V5.8A2.8 2.8 0 0111.8 3h.4A2.8 2.8 0 0115 5.8V7" stroke="currentColor" stroke-width="1.7"/></svg></div>
+        <h3>Бухгалтерское сопровождение ТОО</h3>
+        <p>Комплексное ведение бухгалтерии компании: документы, заработная плата, налоги, отчётность, консультации и сопровождение бизнеса</p>
+        <span class="svc-card__more">Подробнее</span>
+        <span class="svc-card__arrow" aria-hidden="true">→</span>
+      </article>
+      <article class="svc-card reveal" data-service="too-nds" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V7l8-4z" stroke="currentColor" stroke-width="1.7"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+        <h3>Ведение ТОО с НДС</h3>
+        <p>Полное сопровождение компаний — плательщиков НДС: формы 300, книга покупок и продаж, ЭСФ, налоговый контроль и сопровождение операций</p>
+        <span class="svc-card__more">Подробнее</span>
+        <span class="svc-card__arrow" aria-hidden="true">→</span>
+      </article>
+    </div>
   </div>
 </section>
-<section class="services">
+
+<section class="svc-block" id="reports">
   <div class="section-inner">
-    <div class="category">
-      <h2 class="section-title reveal">Бухгалтерское сопровождение</h2>
-      <div class="services__grid">
-        <article class="service-card reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><h3>ИП</h3><p>Ежемесячный учёт, первичная документация и отчётность индивидуального предпринимателя</p><a class="link-more" href="https://wa.me/77760053437?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E" target="_blank" rel="noopener noreferrer">Подробнее</a></article>
-        <article class="service-card reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><h3>ТОО</h3><p>Полное ведение учёта товарищества: документы, налоги и общение с госорганами</p><a class="link-more" href="https://wa.me/77760053437?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E" target="_blank" rel="noopener noreferrer">Подробнее</a></article>
-        <article class="service-card reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><h3>ТОО с НДС</h3><p>Форма 300, зачёты, книга покупок и продаж, контроль налоговых рисков</p><a class="link-more" href="https://wa.me/77760053437?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E" target="_blank" rel="noopener noreferrer">Подробнее</a></article>
-      </div>
+    <h2 class="section-title reveal">Налоговая и статистическая отчётность</h2>
+    <p class="section-lead reveal">Подготавливаем и сдаём обязательную отчётность точно в срок в соответствии с законодательством Республики Казахстан</p>
+    <div class="svc-grid">
+      <article class="svc-card reveal" data-service="tax" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+        <h3>Налоговая отчётность</h3>
+        <p>Подготовка налоговых деклараций</p>
+        <span class="svc-card__more">Подробнее</span>
+        <span class="svc-card__arrow" aria-hidden="true">→</span>
+      </article>
+      <article class="svc-card reveal" data-service="stat" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19V10M10 19V5M16 19v-7M22 19H2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+        <h3>Статистическая отчётность</h3>
+        <p>Подготовка обязательных статистических форм</p>
+        <span class="svc-card__more">Подробнее</span>
+        <span class="svc-card__arrow" aria-hidden="true">→</span>
+      </article>
+      <article class="svc-card reveal" data-service="esf" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="4" y="5" width="16" height="14" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 10h8M8 14h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+        <h3>Электронные счета-фактуры (ЭСФ)</h3>
+        <p>Работа в системе ИС ЭСФ: выпуск, исправление, отзыв и сопровождение ЭСФ</p>
+        <span class="svc-card__more">Подробнее</span>
+        <span class="svc-card__arrow" aria-hidden="true">→</span>
+      </article>
     </div>
-    <div class="category">
-      <h2 class="section-title reveal">Отчётность</h2>
-      <div class="services__grid">
-        <article class="service-card reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><h3>Налоговая отчётность</h3><p>Подготовка и сдача налоговых форм в срок</p></article>
-        <article class="service-card reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><h3>Статистическая отчётность</h3><p>Все обязательные статистические формы</p></article>
-        <article class="service-card reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><h3>ЭСФ</h3><p>Электронные счета-фактуры в ИС ЭСФ</p></article>
-      </div>
+  </div>
+</section>
+
+<section class="svc-block" id="ved">
+  <div class="section-inner">
+    <h2 class="section-title reveal">ВЭД</h2>
+    <p class="section-lead reveal">Сопровождаем импортные и экспортные операции компаний по всему Казахстану</p>
+    <div class="svc-grid svc-grid--4">
+      <article class="svc-card reveal" data-service="import" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.7"/><path d="M12 4c2.5 2.8 2.5 13.2 0 16M4.5 10h15M4.5 14h15" stroke="currentColor" stroke-width="1.6"/></svg></div>
+        <h3>Импорт</h3>
+        <p>Подготовка документов и учёт при ввозе товаров</p>
+        <span class="svc-card__more">Подробнее</span>
+        <span class="svc-card__arrow" aria-hidden="true">→</span>
+      </article>
+      <article class="svc-card reveal" data-service="export" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 19V5M12 5l-4 4M12 5l4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 19h14" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+        <h3>Экспорт</h3>
+        <p>Подготовка документов и подтверждение экспортных операций</p>
+        <span class="svc-card__more">Подробнее</span>
+        <span class="svc-card__arrow" aria-hidden="true">→</span>
+      </article>
+      <article class="svc-card reveal" data-service="f328" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+        <h3>Форма 328</h3>
+        <p>Подготовка и сдача формы 328 при импорте товаров</p>
+        <span class="svc-card__more">Подробнее</span>
+        <span class="svc-card__arrow" aria-hidden="true">→</span>
+      </article>
+      <article class="svc-card reveal" data-service="snt" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="12" height="10" rx="1.6" stroke="currentColor" stroke-width="1.7"/><path d="M15 9h3.2L21 12.2V16h-6" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="7" cy="18.2" r="1.6" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="18.2" r="1.6" stroke="currentColor" stroke-width="1.6"/></svg></div>
+        <h3>СНТ</h3>
+        <p>Оформление сопроводительных накладных на товары в информационной системе</p>
+        <span class="svc-card__more">Подробнее</span>
+        <span class="svc-card__arrow" aria-hidden="true">→</span>
+      </article>
     </div>
-    <div class="category">
-      <h2 class="section-title reveal">ВЭД</h2>
-      <div class="services__grid">
-        <article class="service-card reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.7"/><path d="M12 4c2.5 2.8 2.5 13.2 0 16M4.5 10h15M4.5 14h15" stroke="currentColor" stroke-width="1.6"/></svg></div><h3>Импорт</h3><p>Документы и учёт ввоза товаров</p></article>
-        <article class="service-card reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.7"/><path d="M12 4c2.5 2.8 2.5 13.2 0 16M4.5 10h15M4.5 14h15" stroke="currentColor" stroke-width="1.6"/></svg></div><h3>Экспорт</h3><p>Сопровождение поставок за пределы РК</p></article>
-        <article class="service-card reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><h3>Форма 328</h3><p>Декларация по косвенным налогам при импорте</p></article>
-        <article class="service-card reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><h3>СНТ</h3><p>Сопроводительные накладные на товары</p></article>
-      </div>
+  </div>
+</section>
+
+<section class="svc-block" id="extra">
+  <div class="section-inner">
+    <h2 class="section-title reveal">Дополнительные услуги</h2>
+    <p class="section-lead reveal">Отдельные задачи для запуска, восстановления или закрытия компании</p>
+    <div class="svc-grid svc-grid--3">
+      <article class="svc-card reveal" data-service="reg-ip" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3.2" stroke="currentColor" stroke-width="1.7"/><path d="M5 19c1.2-3.2 3.7-5 7-5s5.8 1.8 7 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+        <h3>Регистрация ИП</h3>
+        <p>Подготовка документов и регистрация индивидуального предпринимателя</p>
+        <span class="svc-card__more">Подробнее</span>
+        <span class="svc-card__arrow" aria-hidden="true">→</span>
+      </article>
+      <article class="svc-card reveal" data-service="reg-too" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 20V8.5L12 4l8 4.5V20" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 20v-6h6v6" stroke="currentColor" stroke-width="1.7"/></svg></div>
+        <h3>Регистрация ТОО</h3>
+        <p>Сопровождение регистрации товарищества и постановки на учёт</p>
+        <span class="svc-card__more">Подробнее</span>
+        <span class="svc-card__arrow" aria-hidden="true">→</span>
+      </article>
+      <article class="svc-card reveal" data-service="nds-reg" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V7l8-4z" stroke="currentColor" stroke-width="1.7"/></svg></div>
+        <h3>Постановка на НДС</h3>
+        <p>Постановка компании на учёт по НДС</p>
+        <span class="svc-card__more">Подробнее</span>
+        <span class="svc-card__arrow" aria-hidden="true">→</span>
+      </article>
+      <article class="svc-card reveal" data-service="restore" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4.5 12A7.5 7.5 0 1112 19.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M4.5 7.5V12h4.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3>Восстановление бухгалтерии</h3>
+        <p>Восстановление учёта и закрытие прошлых периодов</p>
+        <span class="svc-card__more">Подробнее</span>
+        <span class="svc-card__arrow" aria-hidden="true">→</span>
+      </article>
+      <article class="svc-card reveal" data-service="consult" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></div>
+        <h3>Консультации бухгалтера</h3>
+        <p>Разбор налоговых и учётных вопросов по ситуации компании</p>
+        <span class="svc-card__more">Подробнее</span>
+        <span class="svc-card__arrow" aria-hidden="true">→</span>
+      </article>
+      <article class="svc-card reveal" data-service="liquid" role="button" tabindex="0" aria-haspopup="dialog">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 11V8a4 4 0 018 0v3" stroke="currentColor" stroke-width="1.7"/></svg></div>
+        <h3>Ликвидация ИП и ТОО</h3>
+        <p>Сопровождение ликвидации ИП или ТОО и финальной отчётности</p>
+        <span class="svc-card__more">Подробнее</span>
+        <span class="svc-card__arrow" aria-hidden="true">→</span>
+      </article>
     </div>
-    <div class="category">
-      <h2 class="section-title reveal">Зарплата</h2>
-      <div class="services__grid">
-        <article class="service-card reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="4" y="5" width="16" height="15" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 3v4M16 3v4M4 10h16" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><h3>Расчёт заработной платы</h3><p>Начисления сотрудникам по табелю и договорам</p></article>
-        <article class="service-card reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3.2" stroke="currentColor" stroke-width="1.7"/><path d="M5 19c1.2-3.2 3.7-5 7-5s5.8 1.8 7 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><h3>Кадровый учёт</h3><p>Договоры, приказы и учёт сотрудников</p></article>
-      </div>
+  </div>
+</section>
+
+<section class="svc-flow" id="cooperation">
+  <div class="section-inner">
+    <h2 class="section-title reveal">Как проходит сотрудничество</h2>
+    <ol class="svc-flow__grid">
+      <li class="svc-flow__step reveal">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></div>
+        <span class="svc-flow__num">01</span>
+        <h3>Бесплатная консультация</h3>
+        <p>Обсудим деятельность компании и ответим на вопросы</p>
+      </li>
+      <li class="svc-flow__step reveal">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="6.2" stroke="currentColor" stroke-width="1.7"/><path d="M16 16l4.2 4.2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+        <span class="svc-flow__num">02</span>
+        <h3>Анализ бизнеса</h3>
+        <p>Изучим налоговый режим, операции и объём работы</p>
+      </li>
+      <li class="svc-flow__step reveal">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+        <span class="svc-flow__num">03</span>
+        <h3>Подписание договора и закрепление бухгалтера</h3>
+        <p>Оформим договор и закрепим личного специалиста</p>
+      </li>
+      <li class="svc-flow__step reveal">
+        <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V7l8-4z" stroke="currentColor" stroke-width="1.7"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div>
+        <span class="svc-flow__num">04</span>
+        <h3>Полное бухгалтерское сопровождение</h3>
+        <p>Ведём учёт, отчётность и сроки по календарю</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="svc-cta">
+  <div class="section-inner svc-cta__box reveal">
+    <div class="svc-cta__copy">
+      <h2>Передайте бухгалтерию профессионалам MBuh</h2>
+      <p>Подберём оптимальный формат бухгалтерского сопровождения именно для вашего бизнеса и бесплатно рассчитаем стоимость услуг</p>
     </div>
-    <div class="category">
-      <h2 class="section-title reveal">Дополнительные услуги</h2>
-      <div class="services__grid">
-        <article class="service-card reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><h3>Регистрация ИП</h3><p>Режим, ОКЭД и запуск учёта</p></article>
-        <article class="service-card reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><h3>Регистрация ТОО</h3><p>Учредительные документы и регистрация</p></article>
-        <article class="service-card reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="3" width="14" height="18" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><h3>Восстановление бухгалтерии</h3><p>Порядок в базе и закрытие прошлых периодов</p></article>
-        <article class="service-card reveal"><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></div><h3>Консультации</h3><p>Разовые и регулярные консультации по налогам и учёту</p></article>
-      </div>
+    <div class="svc-cta__actions">
+      <a class="btn btn-primary" href="https://wa.me/77760053437?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E" target="_blank" rel="noopener noreferrer">Получить консультацию</a>
+      <a class="btn btn--outline svc-cta__wa" href="https://wa.me/77760053437" target="_blank" rel="noopener noreferrer">Написать в WhatsApp</a>
     </div>
   </div>
 </section>
@@ -89,29 +230,67 @@
   <div class="site-footer__main">
     <div class="site-footer__brand">
       <a href="index.html"><img src="assets/logo/logo.png?v=22" class="site-footer__logo" alt="MBbuh"></a>
-      <p>Бухгалтерия • Налоги • Развитие бизнеса.</p>
+      <p class="site-footer__tag">Бухгалтерия • Налоги • Развитие бизнеса</p>
+      <p class="site-footer__lead">Бухгалтерское сопровождение ИП и ТОО по всему Казахстану</p>
     </div>
-    <nav class="site-footer__nav">
-            <a href="index.html">Главная</a>
-      <a href="services.html">Услуги</a>
-      <a href="prices.html">Стоимость услуг</a>
-      <a href="calculator.html">Калькулятор</a>
-      <a href="blog.html">Полезные статьи</a>
-      <a href="about.html">О компании</a>
-      <a href="reviews.html">Отзывы</a>
-      <a href="contacts.html">Контакты</a>
+    <nav class="site-footer__nav" aria-label="Меню">
+      <div class="site-footer__col">
+        <a href="index.html">Главная</a>
+        <a href="about.html">О компании</a>
+        <a href="reviews.html">Отзывы</a>
+        <a href="contacts.html">Контакты</a>
+      </div>
+      <div class="site-footer__col">
+        <a href="services.html">Услуги</a>
+        <a href="prices.html">Стоимость услуг</a>
+        <a href="calculator.html">Калькулятор</a>
+        <a href="blog.html">Полезные статьи</a>
+      </div>
     </nav>
     <div class="site-footer__contacts">
-      <p><strong>Instagram</strong><br><a href="https://instagram.com/mbbuhbalance" target="_blank" rel="noopener noreferrer">@mbbuhbalance</a></p>
-      <p><strong>WhatsApp</strong><br><a href="https://wa.me/77760053437" target="_blank" rel="noopener noreferrer">+7 776 005 34 37</a></p>
-      <p><strong>2ГИС</strong><br><a href="https://go.2gis.com/TpNak" target="_blank" rel="noopener noreferrer">Маршрут до офиса</a></p>
-      <p><strong>Адрес</strong><br>г. Алматы<br>ул. Керуентау 2/2<br>2 этаж, офис 30</p>
+      <a class="site-footer__item" href="https://instagram.com/mbbuhbalance" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="3.8" stroke="currentColor" stroke-width="1.7"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg>
+        <span>@mbbuhbalance</span>
+      </a>
+      <a class="site-footer__item" href="https://wa.me/77760053437" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19.6 12.1A7.6 7.6 0 1111.2 4.6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M8.1 16.6L4.9 17.6l.9-3.2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M9.2 10.2c.9 2.2 2.5 3.7 4.6 4.5.4.1.7 0 .9-.3l.5-.7c.1-.2 0-.4-.2-.5l-1.3-.6c-.2-.1-.4 0-.5.1l-.5.5c-.1.1-.3.1-.5 0-1-.5-1.8-1.3-2.3-2.3-.1-.2-.1-.4 0-.5l.5-.5c.2-.1.2-.3.1-.5l-.6-1.3c-.1-.2-.3-.3-.5-.2l-.7.5c-.3.2-.4.5-.3.9z" fill="currentColor"/></svg>
+        <span>+7 776 005 34 37</span>
+      </a>
+      <a class="site-footer__item" href="https://go.2gis.com/TpNak" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s6.5-5.8 6.5-10.4a6.5 6.5 0 10-13 0C5.5 15.2 12 21 12 21z" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="10.2" r="2.1" stroke="currentColor" stroke-width="1.7"/></svg>
+        <span>2ГИС</span>
+      </a>
+      <p class="site-footer__item">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 20V9l7-4 7 4v11" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M10 20v-5h4v5" stroke="currentColor" stroke-width="1.7"/></svg>
+        <span>г. Алматы, ул. Керуентау 2/2, 2 этаж, офис 30</span>
+      </p>
+      <a class="site-footer__route" href="https://go.2gis.com/TpNak" target="_blank" rel="noopener noreferrer">Открыть маршрут в 2ГИС <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17L17 7M10 7h7v7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
     </div>
   </div>
-  <div class="site-footer__bottom"><p>© 2026 MBbuh. Все права защищены.</p></div>
+  <div class="site-footer__bottom"><p>© 2026 MBbuh • Алматы, Казахстан • Все права защищены</p></div>
 </footer>
 <a class="float-wa" href="https://wa.me/77760053437" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0012.04 2zm0 1.8c4.46 0 8.11 3.65 8.11 8.11 0 4.47-3.65 8.11-8.11 8.11-1.42 0-2.81-.37-4.03-1.07l-.29-.17-3.12.82.83-3.04-.19-.31a8.07 8.07 0 01-1.23-4.34c0-4.46 3.65-8.11 8.13-8.11zm4.63 10.49c-.25-.13-1.5-.74-1.73-.82-.23-.09-.4-.13-.57.13-.17.25-.65.82-.8.99-.15.17-.29.19-.54.06-.25-.13-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.12-.12.25-.29.37-.43.12-.15.17-.25.25-.42.09-.17.04-.32-.02-.45-.06-.13-.57-1.37-.78-1.88-.2-.48-.41-.42-.57-.43h-.48c-.17 0-.45.06-.68.32-.23.25-.9.88-.9 2.14s.92 2.48 1.05 2.65c.13.17 1.81 2.77 4.39 3.88 1.55.67 2.16.73 2.93.61.47-.07 1.5-.61 1.71-1.2.21-.59.21-1.1.15-1.2-.07-.1-.24-.17-.49-.3z"/></svg></a>
 <button class="to-top" type="button" id="toTop" aria-label="Наверх">↑</button>
-<script src="js/script.js?v=20"></script>
+<div class="trust-modal" id="serviceModal" aria-hidden="true">
+  <div class="trust-modal__backdrop" data-service-close></div>
+  <div class="trust-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="serviceModalTitle" tabindex="-1">
+    <div class="trust-modal__top">
+      <span class="trust-modal__mark" id="serviceModalMark" aria-hidden="true"></span>
+      <button class="trust-modal__x" type="button" id="serviceModalX" aria-label="Закрыть">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="trust-modal__icon" id="serviceModalIcon" aria-hidden="true"></div>
+    <h3 class="trust-modal__title" id="serviceModalTitle"></h3>
+    <p class="trust-modal__text" id="serviceModalText"></p>
+    <p class="svc-modal__label">Что входит</p>
+    <ul class="svc-modal__list" id="serviceModalList"></ul>
+    <div class="trust-modal__actions">
+      <a class="btn btn-primary" id="serviceModalConsult" href="https://wa.me/77760053437?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D1%86%D0%B8%D1%8E" target="_blank" rel="noopener noreferrer">Получить консультацию</a>
+      <a class="btn btn--outline" id="serviceModalWa" href="https://wa.me/77760053437" target="_blank" rel="noopener noreferrer">Написать в WhatsApp</a>
+    </div>
+  </div>
+</div>
+<script src="js/script.js?v=26"></script>
 </body>
 </html>
