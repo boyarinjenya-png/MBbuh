@@ -1183,6 +1183,7 @@ a{color:inherit;}
   gap:24px;
   align-items:stretch;
 }
+<<<<<<< HEAD
 a.trust-card.sv-card,
 a.pr-card.mb-card,
 .trust-card.sv-card[data-trust]{
@@ -1258,6 +1259,105 @@ a.pr-card.mb-card,
 .services-page .sv-inc,
 .services-page .sv-step,
 .services-page .sv-ind{
+=======
+.svc-card{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  height:180px;
+  min-height:180px;
+  max-height:180px;
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:24px;
+  padding:18px 16px;
+  gap:4px;
+  box-shadow:var(--shadow-soft);
+  cursor:pointer;
+  overflow:hidden;
+  transition:transform .25s ease,box-shadow .25s ease;
+}
+.svc-card::before{
+  content:"";
+  position:absolute;left:0;right:0;top:0;
+  height:4px;
+  background:#8AEDE4;
+  transform:scaleX(1);
+  transition:background .25s ease,box-shadow .25s ease;
+}
+.svc-card:hover,.svc-card:focus-visible{
+  transform:translateY(-6px);
+  box-shadow:0 18px 40px rgba(11,31,95,.14),0 10px 28px rgba(18,214,197,.22);
+  outline:none;
+}
+.svc-card:hover::before,.svc-card:focus-visible::before{
+  background:var(--teal);
+  box-shadow:0 0 16px rgba(18,214,197,.85);
+}
+.svc-card__num{
+  font-size:22px;
+  font-weight:750;
+  color:var(--teal);
+  line-height:1;
+  letter-spacing:-.04em;
+  margin:0 0 6px;
+  flex:0 0 auto;
+}
+.svc-card h3{
+  color:#0F2F7D;
+  font-size:16px;
+  font-weight:650;
+  line-height:1.3;
+  margin:0 0 4px;
+  overflow-wrap:break-word;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+.svc-card p{
+  color:#4B5E82;
+  font-size:14px;
+  line-height:1.4;
+  margin:0;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+.svc-card__more{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  margin-top:auto;
+  padding-top:4px;
+  color:#2563EB;
+  font-weight:650;
+  font-size:14px;
+  flex:0 0 auto;
+}
+.svc-card__arrow{
+  display:inline-block;
+  color:inherit;
+  font-size:16px;
+  line-height:1;
+  transition:transform .25s ease;
+}
+.svc-card:hover .svc-card__arrow,.svc-card:focus-visible .svc-card__arrow{
+  transform:translateX(6px);
+}
+.svc-flow{padding:48px 0;}
+.svc-flow .section-title{font-size:38px;font-weight:700;color:#0F2F7D;margin-bottom:24px;letter-spacing:-.03em;}
+.svc-flow__grid{
+  list-style:none;
+  margin:0;
+  padding:0;
+  align-items:stretch;
+}
+.svc-flow .trust-card,
+.svc-flow .mb-card,
+.svc-flow__step{
+>>>>>>> parent of fd3a758 ( итог 4 проверка)
   display:flex;
   flex-direction:column;
   height:180px;
@@ -1533,6 +1633,7 @@ a.pr-card.mb-card,
   .svc-popup__dialog{border-radius:24px 24px 16px 16px;max-height:92vh;}
 }
 
+<<<<<<< HEAD
 /* Prices page — KenesBuh tariff cards, isolated from calculator */
 .prices-page{background:#F6FAFF;}
 .prices-page .pr-hero{
@@ -1933,6 +2034,8 @@ a.pr-card.mb-card,
   .sd-grid--6{grid-template-columns:repeat(3,1fr);}
 }
 
+=======
+>>>>>>> parent of fd3a758 ( итог 4 проверка)
 /* Calculator keeps previous scale — do not restyle calculator.html */
 body:has(.calculator){
   --header-h:72px;
