@@ -1463,7 +1463,7 @@ a{color:inherit;}
 @media (max-width:767px){
   .svc-block .section-title{font-size:32px;}
   .svc-cta__box{padding:28px 20px;}
-  .svc-cta h2{font-size:28px;}
+  .svc-cta h2{font-size:28px;-webkit-line-clamp:3;}
   .svc-cta__actions{width:100%;}
 }
 #serviceModal .trust-modal__icon{
